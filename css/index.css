@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  }
+
+header {
+    height: 40px;
+    background: #e6f7ff;
+}
+h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #000;
+}
+
+body {
+    background: url("../bg4.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -2;
+    background-size: 100%;
+    height: 100%;
+   color: #000;
+   font-size: 16px;
+}
+.btn-position {
+    text-align: center;
+    margin: 20px;
+}
+.images {
+    text-align: center;
+}
+.images img {
+    
+    max-height: 50%;
+    max-width: 80%;
+    text-align: center;
+ 
+}
+
+.btn-position a {
+    background: transparent;
+
+    border: 2px solid #e6f7ff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+
+}
+/* body::before {
+    background: url("../bg3.jpg");
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.7;
+    background-attachment: fixed;
+    } */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+header h1 a {
+    text-decoration: none;
+    color: #000;
+}
+/* img {
+    max-width: 100%;
+} */
+    #menu {
+     padding-top: 50px;
+     margin: 0 auto;
+     text-align: center;
+    }
+
+    #menu ul li {
+         margin-top: 25px;
+        border: 2px solid #e6f7ff;
+        margin-left: 15px;
+        margin-right: 15px;
+        list-style-type: none;
+    }
+
+    #menu ul li a {
+        font-size: 22px;
+        text-decoration: none;
+        color: #000;
+        line-height: 3;
+        font-weight: bold;
+    }
+
+
+/* Description */
+
+#countries {
+
+}
+
+.description {
+    max-height: 150px;
+    max-width: 90%;
+    overflow: auto;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.name img{
+   
+    max-width: 200px;
+}
+.country {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ /* MODAL */
+
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content p {
+    font-size: 24px;
+    font-weight: normal;
+}
+.modal-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 801px) { 
+
+    .images img {
+        width: 80%;
+        height: 320px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 701px) { 
+
+    .images img {
+        width: 80%;
+        height: 300px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 601px) { 
+
+    .images img {
+        width: 80%;
+        height: 250px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 501px) { 
+
+    .images img {
+        width: 80%;
+        height: 200px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) { 
+
+    .images img {
+        width: 80%;
+        height: 180px;
+        padding: 10px;
+    }
+}
