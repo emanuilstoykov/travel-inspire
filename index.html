@@ -1,0 +1,57 @@
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Hello World</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Travel Guide</h1>
+    </header>
+    <a style="display: none;" href="https://drive.google.com/uc?export=view&id=1f84jkh2us0iCHLXTGSVFeOadmDCiXmc2"><img src="https://drive.google.com/uc?export=view&id=1f84jkh2us0iCHLXTGSVFeOadmDCiXmc2" onerror='alert("Please connect to internet");' />
+    <!-- <img style="display:none" src='https://drive.google.com/file/d/1f84jkh2us0iCHLXTGSVFeOadmDCiXmc2/view' 
+      > -->
+<div id="menu">
+    <ul><li><a href="destination.html">Find your destination</a></li></ul>
+    <ul><li><a href="random.html">Random destination</a></li></ul>
+    <ul><li><a id="myBtn">Help</a></li></ul>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+                <span class="close">&times;</span>
+         <div class="modal-body">
+             <div id="invest">
+                 <h3>What you can find in "Find your destination" ?</h3>
+                 <p>In "Find your destination" you can find a lot of countries which you can possible visit</p>
+             </div>
+             <div id="Rate">
+                    <h3>What you can find in "Random destination" ?</h3>
+                    <p>In "Random destination" can try your luck for your future travel. Just click on "Find your future travel". </p>
+                </div>
+            
+    
+         </div>
+        </div> 
+      
+      </div>
+</div>
+    <!-- <script type="text/javascript" src="js/cordova.js"></script> -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
